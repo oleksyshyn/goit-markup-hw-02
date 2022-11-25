@@ -1,0 +1,71 @@
+:root {
+--primary-text-colour: #2E2F42;
+--text-colour: #434455;
+--accent-color: #4D5AE5;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-colour);
+    font-family: Roboto, ;
+}
+
+/* Основний колір тексту #2E2F42 */
+/* Додатковий колір тексту #434455 */
+/* Колір акценту #4D5AE5 */
+
+/* Білий #FFFFFF */
+
+.list {
+    list-style: none;
+}
+
+/* Хедер  */
+.logo {
+    color: var(--primary-text-colour);
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-colour);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--text-colour);
+}
+
+.contacts .link {
+    color: var(--text-colour);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Основний контент */
+
+.hero {
+    color: #FFFFFF;
+}
+
+.hero .button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.section .text {
+    color: var(--text-colour);
+}
+
+.logo-footer {
+    color: #F4F4FD;
+}
+
+.text-footer {
+    color: #E7E9FC;
+}

@@ -1,3 +1,8 @@
+/* Основний колір тексту #2E2F42 */
+/* Додатковий колір тексту #434455 */
+/* Колір акценту #4D5AE5 */
+/* Білий #FFFFFF */
+
 :root {
 --primary-text-colour: #2E2F42;
 --text-colour: #434455;
@@ -9,12 +14,6 @@ body {
     color: var(--primary-text-colour);
     font-family: Roboto, ;
 }
-
-/* Основний колір тексту #2E2F42 */
-/* Додатковий колір тексту #434455 */
-/* Колір акценту #4D5AE5 */
-
-/* Білий #FFFFFF */
 
 .list {
     list-style: none;
@@ -54,13 +53,25 @@ span {
 }
 
 .hero .button {
-    color: #FFFFFF;
     background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 .section .text {
     color: var(--text-colour);
 }
+
+.filter .button {
+    background-color: #F4F4FD;
+    color: var(--accent-color);
+}
+
+.filter .button:hover {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* Футер */
 
 .logo-footer {
     color: #F4F4FD;
